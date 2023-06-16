@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    background-color: #8bca84;
+    transform: translateY(-70px);
+    overflow-y: hidden;
+    overflow-x: hidden;
+    /* background-image: url("./media/sparkles.png");
+     background-repeat: repeat-x repeat-y;
+    background-image: linear-gradient(to top, #9be15d 0%, #00e3ae 100%); */
+}
+
+.sasutree> #sasuke{
+    transform: translate(433px,7px);
+    rotate: 90deg;
+    height: 370px; 
+    
+}
+
+.sasutree> #naruto{
+    transform: translate(500px,360px);
+    height: 200px;
+    width:330px; 
+    
+}
+
+.sasutree> #string{
+    transform: translate(270px,140px);
+}
+
+.sasutree > p{
+    font-size: 50px;
+    transform: translate(500px, 250px);
+    color: rgb(21, 55, 1);
+    font-family: 'Great Vibes', cursive;
+}
+
+.sasutree > a > #sparkles{
+    /* font-size: 50px; */
+    transform: translate(1380px, -480px);
+}
+
+a:hover{
+    cursor: pointer;
+}
+
